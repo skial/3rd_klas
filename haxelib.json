@@ -1,0 +1,14 @@
+{
+  "name": "3rd_klas",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["uhu", "macro", "klas", "macro"],
+  "description": "3rd party Klas hooks",
+  "contributors": ["skial"],
+  "releasenote": "Initial Release",
+  "version": "0.0.1-alpha",
+  "url": "https://github.com/skial/3rdklas",
+  "dependencies": {
+	"klas": ""
+  }
+}
