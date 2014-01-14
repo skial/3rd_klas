@@ -7,7 +7,7 @@
   "contributors": ["skial"],
   "releasenote": "Initial Release",
   "version": "0.0.1-alpha",
-  "url": "https://github.com/skial/3rdklas",
+  "url": "https://github.com/skial/3rd_klas",
   "dependencies": {
 	"klas": ""
   }
