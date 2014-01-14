@@ -15,7 +15,7 @@ class ThirdKlas {
 			}
 			
 			#if hxparse
-			KlasImpl.DEFAULTS.push(HxParseShim.handler);
+			KlasImpl.DEFAULTS.set('HxParseShim', HxParseShim.handler);
 			#end
 			
 		} catch (e:Dynamic) {

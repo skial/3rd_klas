@@ -11,7 +11,7 @@ class HxParseShim {
 
 	public static function handler(cls:ClassType, fields:Array<Field>):Array<Field> {
 		for (field in fields) switch (field.kind) {
-			case FVar(t, e):
+			case FVar(t, e) if (e != null):
 				switch (e) {
 					case macro @:rule $expr:
 						trace( field.name );
