@@ -1,6 +1,6 @@
 package uhx.macro;
 
-import uhx.macro.KlasImpl;
+import uhx.macro.KlasImp;
 
 /**
  * ...
@@ -10,12 +10,12 @@ class ThirdKlas {
 
 	private static function initialize() {
 		try {
-			if (!KlasImpl.setup) {
-				KlasImpl.initalize();
+			if (!KlasImp.setup) {
+				KlasImp.initalize();
 			}
 			
 			#if hxparse
-			KlasImpl.DEFAULTS.set('HxParseShim', HxParseShim.handler);
+			KlasImp.DEFAULTS.set('HxParseShim', HxParseShim.handler);
 			#end
 			
 		} catch (e:Dynamic) {
