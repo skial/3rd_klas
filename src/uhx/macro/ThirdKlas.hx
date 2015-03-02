@@ -10,7 +10,7 @@ class ThirdKlas {
 
 	private static function initialize() {
 		try {
-			KlasImp.initalize();
+			KlasImp.initialize();
 			#if hxparse
 			KlasImp.DEFAULTS.set('HxParseShim', HxParseShim.handler);
 			#end
