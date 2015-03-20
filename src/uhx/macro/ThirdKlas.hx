@@ -12,7 +12,7 @@ class ThirdKlas {
 		try {
 			KlasImp.initialize();
 			#if hxparse
-			KlasImp.DEFAULTS.set('HxParseShim', HxParseShim.handler);
+			KlasImp.allMetadata.add( HxParseShim.handler );
 			#end
 			
 		} catch (e:Dynamic) {
